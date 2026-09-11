@@ -148,7 +148,24 @@ The upstream auto-updater manifest already publishes an exact `sha512` per platf
 
 5. Commit and push.
 
-The deterministic workflow `./update.sh` performs all of these steps (it auto-bootstraps into the devShell for `jq` / `curl`).
+The deterministic workflow performs all of these steps without an LLM:
+
+```bash
+./update.sh --check              # report whether an update is available
+./update.sh --dry-run            # resolve and validate an update without changing files or building
+./update.sh --no-push            # update, build, verify and commit locally
+./update.sh --version 1.2.3      # target an explicit version when upstream exposes it
+./update.sh                      # update, build, verify, commit and push
+```
+
+It uses Bash, Python 3's standard library, `curl`, `git` and `nix`, and can
+bootstrap those tools from the flake dev shell.
+
+All four manifests must advertise the same stable version and valid download
+URLs and SHA512 values. A partial rollout fails before changing the repository;
+the next run can retry once upstream finishes publishing. `--version` accepts
+only the version currently present in those manifests. URL or hash changes are
+detected even when the advertised version remains the same.
 
 ## Technical Details
 
