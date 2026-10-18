@@ -1,21 +1,21 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "platforms": {
     "x86_64-linux": {
-      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.1-6385551759245312/linux-x64/cli_linux_x64.tar.gz",
-      "hash": "sha512-4pGtuiDevQ8wkpelj6Y1WyeMarwhz8suMkV4PE83CLrBSnY5YAlz4tA8ylpjuEL2Jj6Z/+Vj90YGYwBP7gezjA=="
+      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.2-4835981233356800/linux-x64/cli_linux_x64.tar.gz",
+      "hash": "sha512-Sjk6/BNpzulOgXwbQwyRKNArEuvU1XA6zlzUeyMz4hbWc/sAl8v3GV91exEBY7qYUOnuo/27rd1LJWaLgsA/BQ=="
     },
     "aarch64-linux": {
-      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.1-6385551759245312/linux-arm/cli_linux_arm64.tar.gz",
-      "hash": "sha512-UeqTEvN4liOZ+qZzsbL+QES4AeZiUFxcPgXWlP2EmKTGtl8PHDImKdK1voJO8UTI4ZaxJT8Tl6QrloSVFPYLPQ=="
+      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.2-4835981233356800/linux-arm/cli_linux_arm64.tar.gz",
+      "hash": "sha512-9GVUaNMwPmA5y88aMHaePLXE4W0Un7oNCOg/kfDysHy2I6StuGFcp6j8c78kRTAeDhq4LqifaqRMvZqelnA+GQ=="
     },
     "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.1-6385551759245312/darwin-x64/cli_mac_x64.tar.gz",
-      "hash": "sha512-QCscaBG/2uxJsskkLGbUsNEHwdLL2/zk4kq9CjzPXzPKV6SaOid55ZFeVVg9N1CLqPqkVYuvmdJBGlv5fb4+oA=="
+      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.2-4835981233356800/darwin-x64/cli_mac_x64.tar.gz",
+      "hash": "sha512-xcUReRcuZJ1wW4aZT5+lQuamJiduUp50clc7PfE5pxUAQkJQIT/1pJi33+xjX7KhAiJEMe/KBUsaCVXIWPHFtQ=="
     },
     "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.1-6385551759245312/darwin-arm/cli_mac_arm64.tar.gz",
-      "hash": "sha512-pDlYT0UBe7a0+0Wzfb6slgt+mfsujH1gHLy1k4VMlO1H+C8bGT0S2w+P618TraPL8nXlSRvm6LCp9uHWeZtVsQ=="
+      "url": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.4.2-4835981233356800/darwin-arm/cli_mac_arm64.tar.gz",
+      "hash": "sha512-KK608KTFDYxZGwmMObmoWwnGNzI15D4nZp6EV4z+oWFul+HurkD46WlQpl+2tR+N2RlImLS8afEIRCXXirzUQg=="
     }
   }
 }
